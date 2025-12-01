@@ -32,7 +32,7 @@ public class PlaylistRecommender {
             return false;
         }
         for (char c: titleArr) {
-            if (!Character.isLetterOrDigit(c) || !Character.isWhitespace(c)) {
+            if (!Character.isLetterOrDigit(c) && !Character.isWhitespace(c)) {
                 return false;
             }
         }
